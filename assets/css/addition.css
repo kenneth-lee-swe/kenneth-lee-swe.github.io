@@ -6,3 +6,9 @@
 #css {
   width: 35px;
 }
+
+#react {
+  background-image: url("../../images/icons/react.svg");
+  background-size: cover;
+  background-position: center;
+}
