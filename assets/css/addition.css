@@ -34,3 +34,11 @@
 #sequelize {
   width: 60px;
 }
+
+#leaveit_pic {
+  height: 50%;
+}
+
+ul.actions {
+  padding-top: 1em;
+}
