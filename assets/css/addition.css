@@ -42,3 +42,32 @@
 ul.actions {
   padding-top: 1em;
 }
+
+.resume_div {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  color: #a2a2a2;
+}
+
+.resume_div::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #a2a2a2;
+  transform-origin: bottom right;
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.resume_div:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.resume_div:hover {
+  cursor: pointer;
+}
