@@ -11,4 +11,26 @@
   background-image: url("../../images/icons/react.svg");
   background-size: cover;
   background-position: center;
+  margin-left: -10px;
+}
+
+#redux {
+  background-image: url("../../images/icons/redux.svg");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  margin-left: -20px;
+}
+
+#python,
+#flask,
+#sqlalchemy,
+#express,
+#sequelize,
+#postgres {
+  margin-left: -10px;
+}
+
+#sequelize {
+  width: 60px;
 }
