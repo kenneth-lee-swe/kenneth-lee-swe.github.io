@@ -35,10 +35,6 @@
   width: 60px;
 }
 
-#leaveit_pic {
-  height: 50%;
-}
-
 ul.actions {
   padding-top: 1em;
 }
@@ -103,4 +99,8 @@ ul.actions {
   #postgres {
     margin-left: 0px;
   }
+}
+
+.image.fit .project_pics {
+  height: 300px;
 }
